@@ -60,6 +60,20 @@ button {
 }
 
 img {
-    margin: 50px;
-    max-width: fit-content;
+    width: 300px;
+    height: auto;
+}
+
+.second-section {
+    padding: 20px;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
 }
