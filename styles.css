@@ -38,7 +38,7 @@ li {
     font-size: 18px;
 }
 
-button {
+.firstbutton {
     background-color: #3882F6;
     border-radius: 25px;
 }
@@ -62,10 +62,16 @@ button {
 img {
     width: 300px;
     height: auto;
+    border-radius: 25%;
 }
 
 .second-section {
     padding: 20px;
+}
+
+.sectitle {
+    display: flex;
+    justify-content: center;
 }
 
 .holder {
@@ -76,4 +82,65 @@ img {
 .block {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 150px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    display: flex;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.fourth-section {
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 15px;
+    padding: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lastbut {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.call {
+    font-size: 25px;
+}
+
+.action {
+    font-size: 17px;
+    margin-top: 0px;
 }
