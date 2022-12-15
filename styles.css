@@ -144,3 +144,11 @@ img {
     font-size: 17px;
     margin-top: 0px;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
